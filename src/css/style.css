@@ -1,0 +1,112 @@
+* {
+    background-size: 100%;
+}
+
+html{
+    height: 100%;
+}
+
+body {
+    background-color: antiquewhite;
+    /*background-image: url(/src/assets/images/istockphot.jpg);*/
+    display: flex;
+    flex-direction: column;
+    min-height: 100%; 
+}
+
+
+
+/*NAVBAR*/
+.navBar {
+    width: 80%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navBar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navBar ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: Roboto, "sans-serif";
+    font-size: 1.2rem;
+}
+
+/*MOVIMINETO DE LINEA ABAJO DE LOS ENUNCIADOS*/
+.navBar ul li::before {
+    content: "";
+    height: 3px;
+    width: 0%;
+    background: blue;
+    position: absolute;
+    left: 0;
+    bottom: -12px;
+    transition: 0.4s ease-out;
+}
+
+.navBar ul li:hover::before {
+    width: 100%;
+}
+
+/*IMAGENES*/
+
+.images-body {
+    text-align: center;
+    width: 400px;
+    background: black;
+    padding: 10px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    display:inline-block;
+}
+
+
+/*nombre de las frutas*/
+
+.enunciado {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+}
+
+/*contedor*/
+
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+/*radio interior imagen fruta*/
+.img-fruta{ 
+    height: auto;
+    display: block;
+    border-radius: 60%;
+    box-shadow: 5px 5px 0px #424242
+}
+
+/*radios imagen*/
+.fruta{
+    border-radius: 60%;
+}
+
+footer{
+    margin-top: auto;
+}
