@@ -1,10 +1,6 @@
 const btnCompra = document.querySelectorAll('.btnCompra')
 const items = document.getElementById('items')
 
-/*const items = document.getElementById('items').content
-const footer = document.getElementById('footer').content
-const templateFooter = document.getElementById('template-footer').content
-const templateCarrito =document.getElementById('template-carrito').content*/
 
 let carrito = [];
 
