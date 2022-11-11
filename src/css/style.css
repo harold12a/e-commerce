@@ -7,10 +7,10 @@ html{
 }
 
 body {
-    background-color: antiquewhite;
-    /*background-image: url(/src/assets/images/istockphot.jpg);*/
+   /* background-color: antiquewhite;*/
+    background-image: url(/src/assets/images/istockphot.jpg);
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     min-height: 100%; 
 }
 
@@ -94,13 +94,16 @@ body {
 /*contedor*/
 
 .contenedor{
+    
     display: flex;
     flex-wrap: wrap; 
+  
     
     
 }
 
 /*radio interior imagen fruta*/
+
 .img-fruta{ 
     height: auto;
     display: block;
