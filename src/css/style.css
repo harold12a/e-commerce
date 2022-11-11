@@ -7,8 +7,8 @@ html{
 }
 
 body {
-   /* background-color: antiquewhite;*/
-    background-image: url(/src/assets/images/istockphot.jpg);
+    background-color: rgb(231, 250, 215);
+    /*background-image: url(/src/assets/images/html-color.jpg);*/
     display: flex;
     flex-direction:column;
     min-height: 100%; 
@@ -95,10 +95,10 @@ body {
 
 .contenedor{
     
-    display: flex;
+    display: grid;
     flex-wrap: wrap; 
+    background: yellow;
   
-    
     
 }
 
