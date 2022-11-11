@@ -5,10 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>E-commerce</title>
     <link rel="stylesheet" href="./src/css/style.css">
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
@@ -22,6 +21,7 @@
 </head>
 
 <body>
+   
     <header>
         <nav class="navBar">
             <ul>
@@ -37,55 +37,29 @@
     </header>
     <hr>
 
-    <table class="table">
-        <thead>
-            <tr>
+   <div class="">
+        <h1>carrito....</h1>
+        <hr>
+        <table class="table">
+            <thead>
+              <tr>
                 <th scope="col">#</th>
                 <th scope="col">Item</th>
                 <th scope="col">Cantidad</th>
                 <th scope="col">Acción</th>
                 <th scope="col">Total</th>
-            </tr>
-
-        </thead>
-        <tbody id="items">
-
-        </tbody>
-        <tfoot>
-            <tr id="footer">
-                <!--<th scope="row" colspan="5">Carrito vacío - comience a comprar!</th>-->
-            </tr>
-        </tfoot>
-    </table>
-    <!-- carrito
-    <hr>
-
-    
-    <div class="container">
-
-        <hr>
-        <table class="table">
-            <thead>
-                <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Item</th>
-                    <th scope="col">Cantidad</th>
-                    <th scope="col">Acción</th>
-                    <th scope="col">Total</th>
-                </tr>
-
+              </tr>
             </thead>
-            <tbody id="items"></tbody>
+            <tbody id="item"></tbody>
             <tfoot>
-                <tr id="footer">
-                    <th scope="row" colspan="5">Carrito vacío - comience a comprar!</th>
-                </tr>
+              <tr id="footer">
+                <th scope="row" colspan="5">Carrito vacío - comience a comprar!</th>
+              </tr>
             </tfoot>
-        </table>
+          </table>
 
-        <div class="row" id="cards"></div>
+        <div class="row" id="cards" ></div>
     </div>
-
 
     <template id="template-footer">
         <th scope="row" colspan="2">Total productos</th>
@@ -97,124 +71,40 @@
         </td>
         <td class="font-weight-bold">$ <span>5000</span></td>
     </template>
-
+    
     <template id="template-carrito">
-        <tr>
-            <th scope="row">id</th>
-            <td>Café</td>
-            <td>1</td>
-            <td>
-                <button class="btn btn-info btn-sm">
-                    +
-                </button>
-                <button class="btn btn-danger btn-sm">
-                    -
-                </button>
-            </td>
-            <td>$ <span>500</span></td>
-        </tr>
+      <tr>
+        <th scope="row">id</th>
+        <td>Café</td>
+        <td>1</td>
+        <td>
+            <button class="btn btn-info btn-sm">
+                +
+            </button>
+            <button class="btn btn-danger btn-sm">
+                -
+            </button>
+        </td>
+        <td>$ <span>500</span></td>
+      </tr>
     </template>
 
-    <hr>
 
-    -->
-
-    <div class="contenedor">
-        <div class="images-body">
+      
+      <div class="contenedor" id="card">
+       <div class="images-body">
             <div class="featured__item">
                 <div class="img-fruta">
-                    <img class="fruta" src="src/assets/img/feature-2.jpg">
+                    <img class="fruta" src="">
                     <ul class="iconos">
                         <i class="bi bi-cart2"> </i>
                         <i class="bi bi-heart-fill"></i>
                     </ul>
                 </div>
                 <div class="enunciado">
-                    <h6><a href="#">BANANO</a></h6>
-                    <h5>$5.00</h5>
-                    <!--<button type="button" class="btn btn-info"><i class="bi bi-cart-plus"></i></button>
-                    <button type="button" class="btn btn-info"><i class="bi bi-cart-dash"></i></button>-->
-                    <button type="button" class="btn btn-danger btnCompra"><i></i>COMPRAR</button>
-                </div>
-            </div>
-        </div>
-        <div class="images-body">
-            <div class="featured__item">
-                <div class="img-fruta">
-                    <img class="fruta" src="src/assets/img/feature-3.jpg">
-                    <ul class="iconos">
-                        <i class="bi bi-cart2"> </i>
-                        <i class="bi bi-heart-fill"></i>
-                    </ul>
-                </div>
-                <div class="enunciado">
-                    <h6><a href="#">GUAYABA</a></h6>
-                    <h5>$15.00</h5>
-                    <button type="button" class="btn btn-danger btnCompra"><i></i>COMPRAR</button>
-                </div>
-            </div>
-        </div>
-        <div class="images-body">
-            <div class="featured__item">
-                <div class="img-fruta">
-                    <img class="fruta" src="src/assets/img/feature-4.jpg">
-                    <ul class="iconos">
-                        <i class="bi bi-cart2"> </i>
-                        <i class="bi bi-heart-fill"></i>
-                    </ul>
-                </div>
-                <div class="enunciado">
-                    <h6><a href="#">SANDIA</a></h6>
-                    <h5>$40.00</h5>
-                    <button type="button" class="btn btn-danger btnCompra"><i></i>COMPRAR</button>
-                </div>
-            </div>
-        </div>
-        <div class="images-body">
-            <div class="featured__item">
-                <div class="img-fruta">
-                    <img class="fruta" src="src/assets/img/feature-5.jpg">
-                    <ul class="iconos">
-                        <i class="bi bi-cart2"> </i>
-                        <i class="bi bi-heart-fill"></i>
-                    </ul>
-                </div>
-                <div class="enunciado">
-                    <h6><a href="#">UVA</a></h6>
-                    <h5>$20.00</h5>
-                    <button type="button" class="btn btn-danger btnCompra"><i></i>COMPRAR</button>
-                </div>
-            </div>
-        </div>
-        <div class="images-body">
-            <div class="featured__item">
-                <div class="img-fruta">
-                    <img class="fruta" src="src/assets/img/feature-7.jpg">
-                    <ul class="iconos">
-                        <i class="bi bi-cart2"> </i>
-                        <i class="bi bi-heart-fill"></i>
-                    </ul>
-                </div>
-                <div class="enunciado">
-                    <h6><a href="#">MANGO</a></h6>
-                    <h5>$10.00</h5>
-                    <button type="button" class="btn btn-danger btnCompra"><i></i>COMPRAR</button>
-                </div>
-            </div>
-        </div>
-        <div class="images-body">
-            <div class="featured__item">
-                <div class="img-fruta">
-                    <img class="fruta" src="src/assets/img/feature-8.jpg">
-                    <ul class="iconos">
-                        <i class="bi bi-cart2"> </i>
-                        <i class="bi bi-heart-fill"></i>
-                    </ul>
-                </div>
-                <div class="enunciado">
-                    <h6><a href="#">MANZANA</a></h6>
-                    <h5>$30.00</h5>
-                    <button type="button" class="btn btn-danger btnCompra"><i></i>COMPRAR</button>
+                    <h5>Titulo</h5>
+                     <p> precio</p>
+                    <button  class="btn btn-danger">COMPRAR</button>
                 </div>
             </div>
         </div>
@@ -232,8 +122,10 @@
         </div>
 
     </footer>
-    <!--Script-->
-    <script src="folder/carrito.js"></script>
+    
+    <!--Script
+    <script src="folder/carrito.js"></script>-->
+    <script src="folder/app.js"></script>
 
 
 </body>

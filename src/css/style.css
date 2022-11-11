@@ -70,6 +70,9 @@ body {
     color: white;
     box-shadow: 7px 13px 37px #000;
     display:inline-block;
+   
+    
+  
 }
 
 
@@ -85,13 +88,16 @@ body {
     font-family: 'calibri';
     font-size: 18px;
     color: white;
+    
 }
 
 /*contedor*/
 
 .contenedor{
     display: flex;
-    flex-wrap: wrap;  
+    flex-wrap: wrap; 
+    
+    
 }
 
 /*radio interior imagen fruta*/
@@ -99,7 +105,8 @@ body {
     height: auto;
     display: block;
     border-radius: 60%;
-    box-shadow: 5px 5px 0px #424242
+    box-shadow: 5px 5px 0px #424242;
+    
 }
 
 /*radios imagen*/
@@ -111,42 +118,3 @@ footer{
     margin-top: auto;
 }
 
-/*FORMULARIO*/
-
-.formulario{
-    width: 500px;
-    background:#24303c;
-    padding: 30px;
-    margin: auto;
-    margin-top: 100px;
-    border-radius: 4px;
-    font-family: 'calibri';
-    color: white;
-    box-shadow: 7px 13px 37px #000;
-    }
-    .formulario h1{
-        font-size: 22px;
-        margin-bottom: 20px;
-    }
-    .control{
-        width: 100%;
-        background: #24303c;
-        padding: 10px;
-        border-radius: 4px;
-        margin-bottom: 16px;
-        border: 1px solid #1f53c5;
-        font-family: 'calibri';
-        font-size: 18px;
-        color: white;
-        
-    }
-    
-    .formulario .botons{
-        width: 100%;
-        background: #1f53c5;
-        border: none;
-        padding: 10px;
-        color: aliceblue;
-        margin: 16px 0;
-        font-size: 16px;
-    }

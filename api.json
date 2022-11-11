@@ -1,0 +1,39 @@
+
+[
+    {
+    "precio": 5.00,
+    "id": 1,
+    "title": "BANANO",
+    "img": "src/assets/img/feature-2.jpg"
+},
+{
+    "precio": 15.00,
+    "id": 2,
+    "title": "GUAYABA",
+    "img": "src/assets/img/feature-3.jpg"
+},
+{
+    "precio": 40.00,
+    "id": 3,
+    "title": "SANDIA",
+    "img": "src/assets/img/feature-4.jpg"
+},
+{
+    "precio": 20.00,
+    "id": 4,
+    "title": "UVA",
+    "img": "src/assets/img/feature-5.jpg"
+},
+{
+    "precio": 10.00,
+    "id": 5,
+    "title": "MANGO",
+    "img": "src/assets/img/feature-7.jpg"
+},
+{
+    "precio": 30.00,
+    "id": 6,
+    "title": "MANZANA",
+    "img": "src/assets/img/feature-8.jpg"
+}
+]
