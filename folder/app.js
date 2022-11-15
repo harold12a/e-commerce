@@ -77,6 +77,7 @@ if(carrito.hasOwnProperty(producto.id)){
 }
 
 carrito[producto.id] = {...producto}
+swal("HAS AGREGADO UN ARTICULO A TU CARRITO!", "success");
 pintarCarrito()
 }
 
@@ -119,6 +120,7 @@ const pintarFooter = () => {
     const btnVaciar = document.getElementById('vaciar-carrito')
     btnVaciar.addEventListener('click',()=>{
         carrito={}
+        swal("HAS ELIMINADO LA COMPRA");
         pintarCarrito()
     })
 }
